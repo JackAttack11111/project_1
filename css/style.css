@@ -8201,13 +8201,9 @@ h1, h2, h3, h4, h5,
   -moz-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -ms-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -o-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -webkit-transform: scale(0.1);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  overflow-y: scroll; }
+  -o-transform: scale(0); }
   #colorlib-main-nav .colorlib-table {
     display: table;
     width: 100%;
@@ -8240,11 +8236,8 @@ h1, h2, h3, h4, h5,
     width: 44px;
     line-height: 0;
     padding: 0 !important;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: 0.3s;
     -o-transition: 0.3s;
-    transition: 0.3s; }
+}
     @media (prefers-reduced-motion: reduce) {
       #colorlib-main-nav .colorlib-nav-toggle {
         -webkit-transition: none;
